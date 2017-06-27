@@ -1,0 +1,115 @@
+\documentclass[a4paper, 12pt]{report}
+
+%% Language and font encodings
+\usepackage[english,frenchb]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+
+%% Sets page size and margins
+\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+%% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{pdflscape}
+\usepackage{rotating}
+
+\title{Project Title}
+\author{John Smith}
+% Update supervisor and other title stuff in title/title.tex
+
+\begin{document}
+\input{title/title.tex}
+
+
+\chapter*{Remerciement}
+\addcontentsline{toc}{chapter}{Remerciement}
+
+Tout d’abord, je remercie tous les enseignants qui m'ont formée et m'ont appris à développer des compétences recherchées en entreprise.
+\newline
+
+Je remercie mon tuteur Mr François DELBOT pour sa 
+disponibilité et ses précieux conseils.
+\newline
+
+J'adresse également mes remerciements à l’ensemble de mes camarades de formation, pour leur accueil, leur esprit d'équipe et leur gentillesse qui a très largement participé à la réussite de mon intégration durant ces trois dernières années.
+\newline
+
+Mes plus profonds remerciements vont à mes parents. Tout au long de mon cursus, ils m’ont toujours soutenue, encouragée et aidée. 
+\newline
+
+Pour finir, Je remercie ma famille et en particulier ma tante et son mari pour m’avoir fait partager leur joie de vivre et m’avoir ainsi soutenu dans mes efforts.
+
+\chapter*{Liste des abréviations}{}
+\addcontentsline{toc}{chapter}{Liste des abréviations }
+
+DAM: Digital Asset Management
+\newline
+
+DAMF: Digital Asset Management Foundation
+\newline
+
+ACL: Access control list
+\newline
+
+SaaS: Software as a Service
+\newline
+
+SSL: Secure Socket Layer
+\newline
+
+AES: Advanced Encryption Standard
+\newline
+
+USB: Universal Serial Bus
+\newline
+
+API: Application Programming Interface
+\newline
+
+TPV: Terminal Point de Vente 
+\newline
+
+GED: Gestion Electronique des Documents
+\newline
+
+ECM: Enterprise Content Management 
+
+\tableofcontents
+\listoffigures
+\listoftables
+
+\chapter*{Introduction}
+\addcontentsline{toc}{chapter}{Introduction}
+
+
+Face à la croissance exponentielle du volume des contenus et des données associées aux nouveaux usages et modes de consommation, les moyens traditionnels de gestion des ressources numériques sont devenus obsolètes.
+\newline
+
+Ainsi, de nouveaux outils se placent sur le devant de la scène comme solutions à ce phénomène, qui tend toujours un peu plus à s'amplifier. Le "Digital Asset Management", aussi appelé "DAM", est l'un de ces outils visant à devenir une des solutions les plus adaptées, se réinventant chaque jour pour répondre aux futurs besoins et attentes des entreprises et des marques.
+\newline
+
+Aujourd'hui, plusieurs types de DAM existent sur le marché et, cela nous amène donc à poser la problématique suivante : Est-il aisé de choisir un DAM adapté à ses besoins parmi les DAMs génériques présents sur le marché ? OU Comment choisir un DAM parmi ceux présents sur le marché, quand ceux-ci ne sont pas adaptés à un domaine d'activité précis ?
+Dans un premier temps, nous soulignerons l’importance des ressources numériques en entreprise, pour le cas général puis, plus spécifiquement dans le secteur sportif, pour notre cas d’étude.
+\newline
+
+Ce mémoire s'organisera donc en plusieurs parties afin de mieux appréhender notre problématique et ainsi pouvoir proposer des solutions adéquates à cette dernière.
+\newline
+
+La première partie permettra d'établir le contexte et de présenter ce qu'est la gestion des ressources numériques, au travers d'une brève définition, ainsi que de son importance dans le monde professionnel; s'en suivra une présentation des solutions déjà existantes sur le marché.
+\newline
+
+Par la suite, nous étudierons la solution "DAM" : sa définition, les types, ses enjeux et les différences avec une solution existante. En conclusion de cette partie nous verrons les avantages que cette solution apporte aux entreprises. 
+Suivie par la partie visant à étudier le DAM existant, qui expose tous les critères caractéristiques des DAMs sur la base de plusieurs ressources, afin de procéder à l’analyse des critères demandés dans le domaine sportif.
+\newline
+
+Dans la partie finale, il sera question d'aborder les solutions basées sur l’étude et l’analyse des DAMs génériques, afin de répondre à la problématique énoncée et, un bilan de cette expérience avec les DAMs viendra clore ce mémoire.
+\input{introduction/introduction.tex}
+\input{background/background.tex}
+\input{evaluation/evaluation.tex}
+\input{conclusion/conclusion.tex}
+\bibliographystyle{plain}
+
+\end{document}
